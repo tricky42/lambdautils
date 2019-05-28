@@ -1,31 +1,6 @@
-{
-  "_from": "kymautils",
-  "_id": "kymautils@1.0.1",
-  "_inBundle": false,
-  "_integrity": "sha512-OfUG1but/4m951PXZ+rWs2/G+YDDsZ4yX6gP0QSNMQyfrQ8oOmuxVLYQbJapRj81xRZnG1BKzhiH36MNHUyyuA==",
-  "_location": "/kymautils",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "kymautils",
-    "name": "kymautils",
-    "escapedName": "kymautils",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/kymautils/-/kymautils-1.0.1.tgz",
-  "_shasum": "c3de244e1adae6053f9a98887f10021d9e37ca94",
-  "_spec": "kymautils",
-  "_where": "/Users/d061245/tricky42/tmp",
-  "author": "",
+{ "author": "",
   "bugs": {
-    "url": "https://github.com/Abd4llA/kymautils/issues"
+    "url": "https://github.com/tricky42/lambdautils/issues"
   },
   "bundleDependencies": false,
   "dependencies": {
@@ -34,16 +9,16 @@
   },
   "deprecated": false,
   "description": "Utilility to use in your Kyma lambda functions",
-  "homepage": "https://github.com/Abd4llA/kymautils#readme",
+  "homepage": "https://github.com/tricky42/lambdautils#readme",
   "license": "ISC",
   "main": "index.js",
-  "name": "kymautils",
+  "name": "lambdautils",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Abd4llA/kymautils.git"
+    "url": "git+https://github.com/tricky42/lambdautils.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "1.0.1"
+  "version": "0.1.0"
 }
