@@ -12,7 +12,7 @@
   "homepage": "https://github.com/tricky42/lambdautils#readme",
   "license": "ISC",
   "main": "index.js",
-  "name": "lambdautils",
+  "name": "@tricky42/lambdautils",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tricky42/lambdautils.git"
@@ -20,5 +20,5 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "0.1.0"
+  "version": "0.1.2"
 }
