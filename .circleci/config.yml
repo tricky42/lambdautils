@@ -2,7 +2,7 @@
 #
 # Check https://circleci.com/docs/2.0/language-javascript/ for more details
 #
-version: 2.1
+version: 2
 
 defaults: &defaults
   working_directory: ~/repo
@@ -22,10 +22,6 @@ jobs:
           - v1-dependencies-
 
       - run: npm install
-      - run:
-          name: Run tests
-          command: npm test
-
       - save_cache:
           paths:
             - node_modules
@@ -50,7 +46,13 @@ workflows:
   version: 2
   test-deploy:
     jobs:
+      - test:
+          filters:
+            tags:
+              only: /^v.*/
       - deploy:
+          requires:
+            - test
           filters:
             tags:
               only: /^v.*/
